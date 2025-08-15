@@ -23,7 +23,7 @@ func getQuizzes(c *fiber.Ctx) error {
 	list := []map[string]any{
 		{	
 			"teste": 123,
-		},
+dsd		},
 	}
 
 	return c.JSON(list)
